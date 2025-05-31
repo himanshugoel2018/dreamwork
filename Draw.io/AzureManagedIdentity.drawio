@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.7.17">
+  <diagram name="Page-1" id="aFZwdZjDK-lXlbhr3jDt">
+    <mxGraphModel dx="794" dy="1601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mldnDHHd6blv4NcX46Pq-1" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mldnDHHd6blv4NcX46Pq-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mldnDHHd6blv4NcX46Pq-5" target="mldnDHHd6blv4NcX46Pq-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mldnDHHd6blv4NcX46Pq-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="70" y="90" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="mldnDHHd6blv4NcX46Pq-6" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.sql_database_sql_azure;" vertex="1" parent="1">
+          <mxGeometry x="570" y="120" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mldnDHHd6blv4NcX46Pq-8" value="Option 3: Azure Managed Identity. This creates an server identity in Entra ID&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="250" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mldnDHHd6blv4NcX46Pq-9" value="Option 2: Store Connection string in Azure Key Vault and Store key vault config access in Application Code" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="170" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mldnDHHd6blv4NcX46Pq-10" value="Option 1: Store SQL Connection String in Application Code or Config file" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mldnDHHd6blv4NcX46Pq-11" value="Application Code" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="163.75" y="105" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mldnDHHd6blv4NcX46Pq-12" value="Azure VM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mldnDHHd6blv4NcX46Pq-13" value="Azur SQL database" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="90" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mldnDHHd6blv4NcX46Pq-14" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.code_file;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="135" width="47.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mldnDHHd6blv4NcX46Pq-18" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeColor=#001DBC;fontColor=#ffffff;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="150" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mldnDHHd6blv4NcX46Pq-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.004;exitY=0.052;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mldnDHHd6blv4NcX46Pq-5" target="mldnDHHd6blv4NcX46Pq-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="260" as="sourcePoint" />
+            <mxPoint x="420" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mldnDHHd6blv4NcX46Pq-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.1;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mldnDHHd6blv4NcX46Pq-5" target="mldnDHHd6blv4NcX46Pq-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="261" y="107" as="sourcePoint" />
+            <mxPoint x="560" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mldnDHHd6blv4NcX46Pq-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mldnDHHd6blv4NcX46Pq-23" target="mldnDHHd6blv4NcX46Pq-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mldnDHHd6blv4NcX46Pq-23" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ios-web-user-interface-multi-circle-flat-vol-4/512/Burn_fire_flame_danger_burning_hot-128.png" vertex="1" parent="1">
+          <mxGeometry x="470" y="115" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mldnDHHd6blv4NcX46Pq-24" value="Keys and secrets in config/ code is Risk" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-50" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mldnDHHd6blv4NcX46Pq-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="mldnDHHd6blv4NcX46Pq-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mldnDHHd6blv4NcX46Pq-26" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Globe_Warning.svg;" vertex="1" parent="1">
+          <mxGeometry x="350" y="130" width="29.7" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mldnDHHd6blv4NcX46Pq-31" value="Better than option 1 but still we are storing keyvault data in code" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="-50" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mldnDHHd6blv4NcX46Pq-33" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/security/Key_Vaults.svg;" vertex="1" parent="1">
+          <mxGeometry x="450" y="180" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mldnDHHd6blv4NcX46Pq-34" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Managed_Identities.svg;" vertex="1" parent="1">
+          <mxGeometry x="357" y="280" width="68" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="mldnDHHd6blv4NcX46Pq-35" value="Entra: Managed Identities" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="350" width="65" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mldnDHHd6blv4NcX46Pq-41" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeColor=#001DBC;fontColor=#ffffff;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="337" y="310" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mldnDHHd6blv4NcX46Pq-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.233;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mldnDHHd6blv4NcX46Pq-34" target="mldnDHHd6blv4NcX46Pq-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mldnDHHd6blv4NcX46Pq-44" value="Azure EntraID Authentication. Provide level of Access" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="545" y="240" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mldnDHHd6blv4NcX46Pq-47" value="No need to store any key/ Secrets/ credentials in code/ Config file any more" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;strokeColor=default;dashed=1;dashPattern=12 12;sketch=1;curveFitting=1;jiggle=2;glass=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="340" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mldnDHHd6blv4NcX46Pq-48" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/valentine-day-16/512/553_Bulb_Valentine_Light_light_bulb__tips_valentine_valentines_day_love-128.png" vertex="1" parent="1">
+          <mxGeometry x="120" y="340" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
